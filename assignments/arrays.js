@@ -160,7 +160,7 @@ let BMWAndAudi = [];
 for (car of inventory){
   if(car.car_make === 'BMW' || car.car_make === 'Audi'){BMWAndAudi.push(car.car_make)}
 }
-console.log(BMWAndAudi);
+console.log(JSON.stringify(BMWAndAudi));
 
 
 
